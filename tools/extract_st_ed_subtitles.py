@@ -16,7 +16,7 @@ def extract_st_ed_subtitles(subtitle_path,id,starttime,end_time):
 
 def test01():
     id='-7p4awI21FI'
-    extract=extract_st_ed_subtitles('/mnt/bn/datasave-lf3-forsave/data-save/train_data_prepare/NLPCC_2023_CMIVQA_TRAIN_DEV/subtitle.json',id,160,176)
+    extract=extract_st_ed_subtitles('train_data_prepare/NLPCC_2023_CMIVQA_TRAIN_DEV/subtitle.json',id,160,176)
     print(extract)
     print(len(extract))
 
